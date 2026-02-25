@@ -93,10 +93,14 @@
 \geometry{
     a4paper,
     left=3cm,
-    right=1cm,
-    top=2.3cm,
+    right=1.5cm,
+    top=2cm,
     bottom=2cm
 }
+
+%%% Задание межстрочного интервала 1.5
+\linespread{1.3}
+
 %%%
 %%% Пакет для настройки оформления стиля заголовков.
 \usepackage{titlesec}
@@ -357,7 +361,7 @@
 %%%
 %%% http://www.khirevich.com/latex/microtype/
 %%% http://www.khirevich.com/latex/microtype/Microtype_example_ani.gif
-\RequirePackage[tracking=true]{microtype}
+\RequirePackage[tracking=true, expansion=false]{microtype}
 
 %%% Protrusion - позволяет символам пересекать границу отступа для увеличения визуального 
 %%% ощущения однородности границ текста.

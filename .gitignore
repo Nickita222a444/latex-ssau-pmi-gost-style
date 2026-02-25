@@ -7,3 +7,7 @@
 *.ini
 *.dropbox
 *.gz
+*.fls
+*.bbl
+*.blg
+*.fdb_latexmk
